@@ -1,6 +1,6 @@
 let outPutScreen = document.getElementById("outputValue");
 function display(numbers) {
-    outPutScreen.value += numbers; 
+    outPutScreen.value += numbers;
 };
 function allclear() {
     outPutScreen.value = "";
@@ -11,7 +11,7 @@ function del() {
 function calculate() {
     try {
         outPutScreen.value = eval(outPutScreen.value);
-    } catch(err) {
+    } catch (err) {
         outPutScreen.value = "Error";
     }
 }
